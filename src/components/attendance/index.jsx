@@ -1,4 +1,4 @@
-import Daily from './daily/Daily';
+import Daily from './Daily/Daily';
 import Monthly from './monthly/Monthly';
 import Summary from './Summary';
 
