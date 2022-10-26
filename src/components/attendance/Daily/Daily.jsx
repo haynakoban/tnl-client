@@ -29,15 +29,15 @@ import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 
 import TablePaginationActions from '../TablePaginationActions';
 import DailyModal from './DailyModal';
-import { AuthContext } from '../../lib/authContext';
+import { AuthContext } from '../../../lib/authContext';
 import {
   DailyAttendanceDateFormatter,
   TimeFormatter,
-} from '../../lib/DateFormatter';
+} from '../../../lib/DateFormatter';
 import {
   fetchDailyAttendance,
   getDailyAttendances,
-} from '../../features/attendances/attendancesSlice';
+} from '../../../features/attendances/attendancesSlice';
 
 const Daily = ({ company_id }) => {
   const { _user } = useContext(AuthContext);
