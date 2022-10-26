@@ -27,7 +27,7 @@ import { AdapterDateFns } from '@mui/x-date-pickers/AdapterDateFns';
 import { DatePicker } from '@mui/x-date-pickers/DatePicker';
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 
-import TablePaginationActions from './TablePaginationActions';
+import TablePaginationActions from '../TablePaginationActions';
 import DailyModal from './DailyModal';
 import { AuthContext } from '../../lib/authContext';
 import {
